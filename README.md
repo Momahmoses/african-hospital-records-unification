@@ -42,11 +42,11 @@ python src/etl/pipeline.py
 - SHA-256 based canonical Master Record Number (MRN)
 
 ### Feature Engineering (`src/etl/pipeline.py`)
-- `days_since_last_visit` — recency of care
-- `chronic_condition_score` — count of chronic conditions
-- `medication_adherence_rate` — appointments kept ratio
-- `bmi` — calculated from weight + height
-- `age_group` — child/adolescent/adult/elderly
+- `days_since_last_visit`, recency of care
+- `chronic_condition_score`, count of chronic conditions
+- `medication_adherence_rate`, appointments kept ratio
+- `bmi`, calculated from weight + height
+- `age_group`, child/adolescent/adult/elderly
 
 ### Validation (`src/validation/validator.py`)
 - Required fields presence check
